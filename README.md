@@ -4,18 +4,42 @@ Pipeline que estima la demanda de pasajeros en espera del sistema de transporte 
 
 ## Requisitos
 
+- Python ≥ 3.10
+
+## Instalación
+
 ```bash
+git clone https://github.com/davexat/espol-transport-demand-prediction.git
+cd espol-transport-demand-prediction
+
+# Crear entorno virtual
+python -m venv .venv
+
+# Activar entorno
+# Windows
+.venv\Scripts\activate
+# macOS / Linux
+source .venv/bin/activate
+
+# Instalar dependencias
 pip install -r requirements.txt
 ```
 
 ## Ejecución
 
+Pipeline completo:
+
 ```bash
-python run_all.py                  # pipeline completo
-python run_all.py --config custom.yaml  # config alternativa
+python run_all.py
 ```
 
-O por etapas:
+Configuración alternativa:
+
+```bash
+python run_all.py --config custom.yaml
+```
+
+Por etapas:
 
 ```bash
 python scripts/01_characterize.py
@@ -24,6 +48,10 @@ python scripts/03_missingness.py
 python scripts/04_impute_masking_eval.py
 python scripts/05_train_evaluate.py
 ```
+
+## Configuración
+
+Todas las constantes se definen en `config.yaml`: rutas, lags, ventanas móviles, modelos, esquema de validación y tasas de enmascaramiento.
 
 ## Estructura
 
@@ -34,10 +62,12 @@ python scripts/05_train_evaluate.py
 | `scripts/` | Scripts por etapa |
 | `outputs/` | Resultados generados (métricas, cobertura, imputador seleccionado) |
 
-## Configuración
+## Outputs
 
-Todas las constantes (rutas, lags, ventanas, modelos, splits) se definen en `config.yaml`.
-
-## Variable objetivo
-
-`espera_al_cierre` — número de personas en espera al cierre de cada intervalo de 10 minutos.
+| Archivo | Descripción |
+|---|---|
+| `01_caracterizacion.json` | Resumen de sesiones, intervalos y eventos |
+| `02_cobertura.json` | Cobertura temporal observada |
+| `03_missingness_veredicto.json` | Clasificación del mecanismo de faltante (MAR/MCAR) |
+| `04_imputador_seleccionado.json` | Estrategia de imputación seleccionada |
+| `05_resumen_metricas.csv` | Métricas finales (MAE, RMSE, WAPE, R²) por escenario y modelo |
