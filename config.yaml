@@ -1,0 +1,58 @@
+paths:
+  datasets_dir: "data"
+  outputs_dir: "outputs"
+
+data:
+  sesiones_file: "sesion_observacion_rows.csv"
+  intervalos_file: "intervalo_demanda_rows.csv"
+  eventos_file: "evento_bus_rows.csv"
+  interval_minutes: 10
+  # ventana operativa oficial observada
+  day_start: "08:00:00"
+  day_end: "16:30:00"
+
+target:
+  # P1: variable objetivo = espera_al_cierre (demanda de pasajeros en espera)
+  name: "espera_al_cierre"
+
+prediction:
+  # P3: predecir el intervalo i con información disponible al cierre de i-1
+  horizon_intervals: 1
+
+features:
+  # lags y rolling del target hasta t0
+  lags: [1, 2, 3]
+  rolling_windows: [3, 6, 12]
+  # variables excluidas por fuga de información (nunca predictoras)
+  leakage_exclude:
+    - "hora_real_llegada"
+    - "hora_real_salida"
+    - "personas_suben"
+    - "personas_bajan"
+    - "personas_esperando_antes"
+
+missingness:
+  # porcentajes de enmascaramiento artificial para evaluar imputadores
+  masking_rates: [0.05, 0.10, 0.20, 0.30]
+
+imputation:
+  # P2: knn_neighbors para KNNImputer; iterative se activa como alternativa condicional
+  knn_neighbors: 5
+  iterative_enabled: true
+
+split:
+  # P5: rolling-origin con ventana expansiva (expanding window)
+  scheme: "expanding"
+  n_folds: 3
+  # fracción inicial de entrenamiento antes del primer origen
+  initial_train_fraction: 0.4
+
+models:
+  # baselines: naive y seasonal_naive
+  # ridge, poisson (conteo), random_forest, lightgbm
+  random_state: 42
+
+evaluation:
+  metrics: ["MAE", "RMSE", "WAPE", "R2"]
+
+seed: 42
