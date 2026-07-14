@@ -1,0 +1,281 @@
+id,fecha,parada_observada,turno,dia_semana,tipo_dia,tipo_recorrido
+0000,2026-06-22,Paradero FCSH (Salida),14h00-16h30,Lunes,Laborable,Salida
+0001,2026-06-23,Paradero Garita (Entrada),08h00-11h00,Martes,Laborable,Entrada
+0002,2026-06-09,Paradero FCSH (Salida),11h00-14h00,Martes,Laborable,Salida
+0003,2026-06-11,Paradero Fadcom,14h00-16h30,Jueves,Laborable,Entrada
+0004,2026-06-10,Paradero FCV,14h00-16h30,Miércoles,Laborable,Entrada
+0005,2026-06-19,Paradero Garita (Entrada),08h00-11h00,Viernes,Laborable,Entrada
+0006,2026-06-10,Paradero FIEC,08h00-11h00,Miércoles,Laborable,Entrada
+0007,2026-06-12,Paradero FCV,08h00-11h00,Viernes,Laborable,Entrada
+0008,2026-06-24,Paradero Garita (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0009,2026-06-09,Paradero Biblioteca (Salida),08h00-11h00,Martes,Laborable,Salida
+0010,2026-07-10,Paradero Garita (Salida),11h00-14h00,Viernes,Laborable,Salida
+0011,2026-06-11,Paradero Gimnasio Bienestar,14h00-16h30,Jueves,Laborable,Salida
+0012,2026-06-03,Paradero FCSH (Salida),11h00-14h00,Miércoles,Laborable,Salida
+0013,2026-06-18,Paradero FCSH (Salida),11h00-14h00,Jueves,Laborable,Salida
+0014,2026-06-02,Paradero Garita (Entrada),11h00-14h00,Martes,Laborable,Entrada
+0015,2026-06-15,Paradero Garita (Entrada),14h00-16h30,Lunes,Laborable,Entrada
+0016,2026-06-08,Paradero Garita (Salida),11h00-14h00,Lunes,Laborable,Salida
+0017,2026-06-03,Paradero Gimnasio Bienestar,14h00-16h30,Miércoles,Laborable,Salida
+0018,2026-06-03,Paradero Biblioteca (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0019,2026-06-24,Paradero FCSH (Salida),11h00-14h00,Miércoles,Laborable,Salida
+0020,2026-07-08,Paradero Biblioteca (Entrada),11h00-14h00,Miércoles,Laborable,Entrada
+0021,2026-06-01,Paradero Biblioteca (Salida),08h00-11h00,Lunes,Laborable,Salida
+0022,2026-06-11,Paradero Biblioteca (Entrada),11h00-14h00,Jueves,Laborable,Entrada
+0023,2026-06-04,Paradero FCV/Piscina,14h00-16h30,Jueves,Laborable,Salida
+0024,2026-06-19,Estación de buses,08h00-11h00,Viernes,Laborable,Entrada
+0025,2026-07-09,Paradero Garita (Entrada),08h00-11h00,Jueves,Laborable,Entrada
+0026,2026-06-11,Paradero FIEC,11h00-14h00,Jueves,Laborable,Entrada
+0027,2026-06-05,Paradero Gimnasio Bienestar,08h00-11h00,Viernes,Laborable,Salida
+0028,2026-06-04,Estación de buses (Salida),08h00-11h00,Jueves,Laborable,Salida
+0029,2026-06-11,Paradero Biblioteca (Entrada),08h00-11h00,Jueves,Laborable,Entrada
+0030,2026-06-22,Paradero FIEC,14h00-16h30,Lunes,Laborable,Entrada
+0031,2026-06-12,Paradero Gimnasio Bienestar,11h00-14h00,Viernes,Laborable,Salida
+0032,2026-06-24,Estación de buses (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0033,2026-06-05,Paradero FCV/Piscina,11h00-14h00,Viernes,Laborable,Salida
+0034,2026-07-10,Paradero FCV,08h00-11h00,Viernes,Laborable,Entrada
+0035,2026-07-09,Paradero FIEC,11h00-14h00,Jueves,Laborable,Entrada
+0036,2026-06-18,Paradero FIEC,11h00-14h00,Jueves,Laborable,Entrada
+0037,2026-06-05,Paradero Biblioteca (Salida),11h00-14h00,Viernes,Laborable,Salida
+0038,2026-06-23,Paradero Garita (Entrada),14h00-16h30,Martes,Laborable,Entrada
+0039,2026-06-11,Paradero Biblioteca (Entrada),14h00-16h30,Jueves,Laborable,Entrada
+0040,2026-07-09,Paradero FCV,14h00-16h30,Jueves,Laborable,Entrada
+0041,2026-07-06,Estación de buses,14h00-16h30,Lunes,Laborable,Entrada
+0042,2026-07-06,Paradero FCV/Piscina,11h00-14h00,Lunes,Laborable,Salida
+0043,2026-06-18,Estación de buses (Salida),14h00-16h30,Jueves,Laborable,Salida
+0044,2026-07-09,Paradero Biblioteca (Entrada),08h00-11h00,Jueves,Laborable,Entrada
+0045,2026-06-11,Paradero FCSH (Salida),08h00-11h00,Jueves,Laborable,Salida
+0046,2026-07-08,Paradero FCSH (Entrada),14h00-16h30,Miércoles,Laborable,Entrada
+0047,2026-06-19,Paradero FCSH (Salida),08h00-11h00,Viernes,Laborable,Salida
+0048,2026-06-04,Paradero Garita (Entrada),11h00-14h00,Jueves,Laborable,Entrada
+0049,2026-06-15,Paradero FCV/Piscina,08h00-11h00,Lunes,Laborable,Salida
+0050,2026-06-02,Paradero Garita (Salida),11h00-14h00,Martes,Laborable,Salida
+0051,2026-06-22,Paradero Fadcom,14h00-16h30,Lunes,Laborable,Entrada
+0052,2026-06-10,Estación de buses (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0053,2026-06-01,Paradero FCV/Piscina,14h00-16h30,Lunes,Laborable,Salida
+0054,2026-06-22,Estación de buses (Salida),14h00-16h30,Lunes,Laborable,Salida
+0055,2026-07-09,Paradero Garita (Salida),14h00-16h30,Jueves,Laborable,Salida
+0056,2026-06-04,Paradero FCSH (Entrada),08h00-11h00,Jueves,Laborable,Entrada
+0057,2026-06-03,Paradero Biblioteca (Entrada),11h00-14h00,Miércoles,Laborable,Entrada
+0058,2026-06-15,Paradero Biblioteca (Entrada),14h00-16h30,Lunes,Laborable,Entrada
+0059,2026-06-22,Paradero Biblioteca (Entrada),11h00-14h00,Lunes,Laborable,Entrada
+0060,2026-06-10,Paradero Biblioteca (Salida),08h00-11h00,Miércoles,Laborable,Salida
+0061,2026-06-24,Estación de buses (Salida),08h00-11h00,Miércoles,Laborable,Salida
+0062,2026-06-17,Paradero Garita (Salida),11h00-14h00,Miércoles,Laborable,Salida
+0063,2026-07-07,Paradero Biblioteca (Salida),11h00-14h00,Martes,Laborable,Salida
+0064,2026-06-12,Paradero FIEC,14h00-16h30,Viernes,Laborable,Entrada
+0065,2026-06-23,Paradero FCSH (Salida),11h00-14h00,Martes,Laborable,Salida
+0066,2026-06-04,Paradero FCV,11h00-14h00,Jueves,Laborable,Entrada
+0067,2026-06-17,Paradero FCSH (Salida),08h00-11h00,Miércoles,Laborable,Salida
+0068,2026-06-22,Paradero Garita (Entrada),11h00-14h00,Lunes,Laborable,Entrada
+0069,2026-06-08,Paradero FIEC,11h00-14h00,Lunes,Laborable,Entrada
+0070,2026-06-08,Paradero Gimnasio Bienestar,14h00-16h30,Lunes,Laborable,Salida
+0071,2026-06-24,Paradero Fadcom,08h00-11h00,Miércoles,Laborable,Entrada
+0072,2026-06-17,Paradero FIEC,11h00-14h00,Miércoles,Laborable,Entrada
+0073,2026-06-15,Paradero FCV/Piscina,11h00-14h00,Lunes,Laborable,Salida
+0074,2026-06-24,Estación de buses,14h00-16h30,Miércoles,Laborable,Entrada
+0075,2026-06-01,Estación de buses,14h00-16h30,Lunes,Laborable,Entrada
+0076,2026-06-09,Paradero Biblioteca (Entrada),11h00-14h00,Martes,Laborable,Entrada
+0077,2026-06-10,Paradero Garita (Salida),11h00-14h00,Miércoles,Laborable,Salida
+0078,2026-07-08,Estación de buses,11h00-14h00,Miércoles,Laborable,Entrada
+0079,2026-06-03,Paradero Biblioteca (Salida),08h00-11h00,Miércoles,Laborable,Salida
+0080,2026-06-17,Paradero Gimnasio Bienestar,14h00-16h30,Miércoles,Laborable,Salida
+0081,2026-06-22,Paradero FCV,14h00-16h30,Lunes,Laborable,Entrada
+0082,2026-06-10,Paradero FCSH (Entrada),08h00-11h00,Miércoles,Laborable,Entrada
+0083,2026-06-03,Paradero FCV/Piscina,11h00-14h00,Miércoles,Laborable,Salida
+0084,2026-07-10,Paradero FIEC,08h00-11h00,Viernes,Laborable,Entrada
+0085,2026-06-23,Paradero FIEC,11h00-14h00,Martes,Laborable,Entrada
+0086,2026-06-05,Paradero FIEC,14h00-16h30,Viernes,Laborable,Entrada
+0087,2026-07-07,Paradero FCV,11h00-14h00,Martes,Laborable,Entrada
+0088,2026-06-12,Paradero Fadcom,14h00-16h30,Viernes,Laborable,Entrada
+0089,2026-07-09,Estación de buses,14h00-16h30,Jueves,Laborable,Entrada
+0090,2026-06-16,Paradero FCSH (Salida),08h00-11h00,Martes,Laborable,Salida
+0091,2026-06-16,Paradero Gimnasio Bienestar,11h00-14h00,Martes,Laborable,Salida
+0092,2026-06-24,Paradero Gimnasio Bienestar,11h00-14h00,Miércoles,Laborable,Salida
+0093,2026-06-01,Paradero Biblioteca (Entrada),11h00-14h00,Lunes,Laborable,Entrada
+0094,2026-06-10,Paradero Biblioteca (Entrada),11h00-14h00,Miércoles,Laborable,Entrada
+0095,2026-06-02,Paradero FIEC,11h00-14h00,Martes,Laborable,Entrada
+0096,2026-06-18,Paradero Garita (Salida),11h00-14h00,Jueves,Laborable,Salida
+0097,2026-07-06,Paradero Gimnasio Bienestar,08h00-11h00,Lunes,Laborable,Salida
+0098,2026-07-07,Paradero FCV/Piscina,11h00-14h00,Martes,Laborable,Salida
+0099,2026-06-04,Paradero FCSH (Salida),11h00-14h00,Jueves,Laborable,Salida
+0100,2026-06-24,Paradero Garita (Entrada),08h00-11h00,Miércoles,Laborable,Entrada
+0101,2026-06-23,Paradero Gimnasio Bienestar,14h00-16h30,Martes,Laborable,Salida
+0102,2026-07-09,Paradero Biblioteca (Salida),11h00-14h00,Jueves,Laborable,Salida
+0103,2026-06-17,Paradero FIEC,08h00-11h00,Miércoles,Laborable,Entrada
+0104,2026-07-07,Paradero FCSH (Entrada),14h00-16h30,Martes,Laborable,Entrada
+0105,2026-06-24,Paradero Biblioteca (Entrada),14h00-16h30,Miércoles,Laborable,Entrada
+0106,2026-06-16,Paradero Biblioteca (Entrada),08h00-11h00,Martes,Laborable,Entrada
+0107,2026-06-24,Paradero Biblioteca (Entrada),11h00-14h00,Miércoles,Laborable,Entrada
+0108,2026-06-10,Paradero FCSH (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0109,2026-06-03,Paradero Garita (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0110,2026-06-05,Estación de buses,14h00-16h30,Viernes,Laborable,Entrada
+0111,2026-07-06,Estación de buses,11h00-14h00,Lunes,Laborable,Entrada
+0112,2026-06-17,Paradero Fadcom,14h00-16h30,Miércoles,Laborable,Entrada
+0113,2026-06-17,Paradero Biblioteca (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0114,2026-07-10,Estación de buses (Salida),08h00-11h00,Viernes,Laborable,Salida
+0115,2026-06-23,Estación de buses (Salida),11h00-14h00,Martes,Laborable,Salida
+0116,2026-07-09,Paradero Biblioteca (Entrada),14h00-16h30,Jueves,Laborable,Entrada
+0117,2026-06-05,Paradero FCV/Piscina,08h00-11h00,Viernes,Laborable,Salida
+0118,2026-06-09,Paradero Fadcom,08h00-11h00,Martes,Laborable,Entrada
+0119,2026-06-12,Paradero FCSH (Salida),14h00-16h30,Viernes,Laborable,Salida
+0120,2026-06-16,Paradero Garita (Salida),08h00-11h00,Martes,Laborable,Salida
+0121,2026-07-09,Estación de buses (Salida),11h00-14h00,Jueves,Laborable,Salida
+0122,2026-06-18,Paradero Biblioteca (Entrada),11h00-14h00,Jueves,Laborable,Entrada
+0123,2026-06-01,Estación de buses,08h00-11h00,Lunes,Laborable,Entrada
+0124,2026-07-06,Paradero FCSH (Entrada),11h00-14h00,Lunes,Laborable,Entrada
+0125,2026-07-08,Paradero Biblioteca (Salida),11h00-14h00,Miércoles,Laborable,Salida
+0126,2026-06-18,Paradero FCV,08h00-11h00,Jueves,Laborable,Entrada
+0127,2026-07-06,Paradero FIEC,14h00-16h30,Lunes,Laborable,Entrada
+0128,2026-06-22,Paradero Gimnasio Bienestar,11h00-14h00,Lunes,Laborable,Salida
+0129,2026-06-24,Paradero Garita (Salida),08h00-11h00,Miércoles,Laborable,Salida
+0130,2026-06-23,Paradero FCSH (Salida),14h00-16h30,Martes,Laborable,Salida
+0131,2026-06-12,Paradero Biblioteca (Entrada),14h00-16h30,Viernes,Laborable,Entrada
+0132,2026-07-08,Paradero Garita (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0133,2026-06-09,Paradero FCV/Piscina,11h00-14h00,Martes,Laborable,Salida
+0134,2026-06-19,Estación de buses (Salida),14h00-16h30,Viernes,Laborable,Salida
+0135,2026-06-10,Paradero FCV/Piscina,08h00-11h00,Miércoles,Laborable,Salida
+0136,2026-06-16,Paradero Biblioteca (Entrada),14h00-16h30,Martes,Laborable,Entrada
+0137,2026-06-01,Paradero Biblioteca (Salida),14h00-16h30,Lunes,Laborable,Salida
+0138,2026-06-23,Paradero Biblioteca (Salida),14h00-16h30,Martes,Laborable,Salida
+0139,2026-07-06,Paradero FCSH (Salida),11h00-14h00,Lunes,Laborable,Salida
+0140,2026-07-10,Estación de buses (Salida),14h00-16h30,Viernes,Laborable,Salida
+0141,2026-06-08,Estación de buses (Salida),11h00-14h00,Lunes,Laborable,Salida
+0142,2026-06-02,Paradero FCSH (Salida),08h00-11h00,Martes,Laborable,Salida
+0143,2026-06-17,Paradero Garita (Salida),14h00-16h30,Miércoles,Laborable,Salida
+0144,2026-06-22,Paradero FCSH (Entrada),11h00-14h00,Lunes,Laborable,Entrada
+0145,2026-06-08,Paradero FIEC,08h00-11h00,Lunes,Laborable,Entrada
+0146,2026-06-09,Paradero Garita (Salida),11h00-14h00,Martes,Laborable,Salida
+0147,2026-06-08,Paradero Biblioteca (Entrada),14h00-16h30,Lunes,Laborable,Entrada
+0148,2026-06-17,Paradero FCSH (Salida),11h00-14h00,Miércoles,Laborable,Salida
+0149,2026-06-23,Paradero Garita (Salida),08h00-11h00,Martes,Laborable,Salida
+0150,2026-06-15,Paradero FCSH (Salida),11h00-14h00,Lunes,Laborable,Salida
+0151,2026-06-25,Paradero FCSH (Salida),08h00-11h00,Jueves,Laborable,Salida
+0152,2026-06-25,Paradero Gimnasio Bienestar,08h00-11h00,Jueves,Laborable,Salida
+0153,2026-06-15,Estación de buses (Salida),11h00-14h00,Lunes,Laborable,Salida
+0154,2026-06-23,Paradero Biblioteca (Entrada),08h00-11h00,Martes,Laborable,Entrada
+0155,2026-06-15,Paradero FIEC,14h00-16h30,Lunes,Laborable,Entrada
+0156,2026-07-07,Estación de buses (Salida),08h00-11h00,Martes,Laborable,Salida
+0157,2026-07-06,Paradero FCSH (Salida),14h00-16h30,Lunes,Laborable,Salida
+0158,2026-06-02,Paradero Garita (Salida),14h00-16h30,Martes,Laborable,Salida
+0159,2026-06-24,Paradero Garita (Salida),11h00-14h00,Miércoles,Laborable,Salida
+0160,2026-06-03,Paradero FIEC,11h00-14h00,Miércoles,Laborable,Entrada
+0161,2026-06-11,Paradero FCSH (Salida),14h00-16h30,Jueves,Laborable,Salida
+0162,2026-06-04,Paradero Biblioteca (Salida),08h00-11h00,Jueves,Laborable,Salida
+0163,2026-07-10,Paradero Garita (Entrada),08h00-11h00,Viernes,Laborable,Entrada
+0164,2026-06-18,Estación de buses,11h00-14h00,Jueves,Laborable,Entrada
+0165,2026-06-23,Estación de buses,14h00-16h30,Martes,Laborable,Entrada
+0166,2026-06-22,Paradero Garita (Entrada),14h00-16h30,Lunes,Laborable,Entrada
+0167,2026-06-23,Paradero Fadcom,11h00-14h00,Martes,Laborable,Entrada
+0168,2026-06-16,Paradero Garita (Entrada),08h00-11h00,Martes,Laborable,Entrada
+0169,2026-06-16,Estación de buses (Salida),11h00-14h00,Martes,Laborable,Salida
+0170,2026-06-16,Paradero Biblioteca (Salida),08h00-11h00,Martes,Laborable,Salida
+0171,2026-07-07,Paradero Biblioteca (Entrada),14h00-16h30,Martes,Laborable,Entrada
+0172,2026-06-11,Paradero Garita (Entrada),14h00-16h30,Jueves,Laborable,Entrada
+0173,2026-06-19,Paradero FCV/Piscina,08h00-11h00,Viernes,Laborable,Salida
+0174,2026-06-15,Paradero Gimnasio Bienestar,14h00-16h30,Lunes,Laborable,Salida
+0175,2026-06-25,Paradero FCV,14h00-16h30,Jueves,Laborable,Entrada
+0176,2026-06-04,Paradero Fadcom,11h00-14h00,Jueves,Laborable,Entrada
+0177,2026-07-09,Paradero Gimnasio Bienestar,08h00-11h00,Jueves,Laborable,Salida
+0178,2026-07-08,Paradero Fadcom,08h00-11h00,Miércoles,Laborable,Entrada
+0179,2026-07-10,Paradero FCSH (Salida),11h00-14h00,Viernes,Laborable,Salida
+0180,2026-06-08,Paradero Biblioteca (Entrada),11h00-14h00,Lunes,Laborable,Entrada
+0181,2026-06-02,Paradero Fadcom,14h00-16h30,Martes,Laborable,Entrada
+0182,2026-07-06,Paradero FCSH (Salida),08h00-11h00,Lunes,Laborable,Salida
+0183,2026-07-07,Paradero Garita (Salida),14h00-16h30,Martes,Laborable,Salida
+0184,2026-06-25,Estación de buses (Salida),08h00-11h00,Jueves,Laborable,Salida
+0185,2026-06-17,Paradero Biblioteca (Entrada),08h00-11h00,Miércoles,Laborable,Entrada
+0186,2026-06-19,Paradero Biblioteca (Salida),08h00-11h00,Viernes,Laborable,Salida
+0187,2026-06-09,Estación de buses (Salida),14h00-16h30,Martes,Laborable,Salida
+0188,2026-06-09,Paradero FCV/Piscina,08h00-11h00,Martes,Laborable,Salida
+0189,2026-06-01,Paradero FIEC,08h00-11h00,Lunes,Laborable,Entrada
+0190,2026-06-24,Paradero Biblioteca (Salida),11h00-14h00,Miércoles,Laborable,Salida
+0191,2026-06-19,Estación de buses,11h00-14h00,Viernes,Laborable,Entrada
+0192,2026-07-06,Estación de buses,08h00-11h00,Lunes,Laborable,Entrada
+0193,2026-06-23,Paradero FCV/Piscina,14h00-16h30,Martes,Laborable,Salida
+0194,2026-07-09,Paradero Biblioteca (Salida),08h00-11h00,Jueves,Laborable,Salida
+0195,2026-06-23,Paradero FCV,08h00-11h00,Martes,Laborable,Entrada
+0196,2026-06-17,Paradero Garita (Entrada),11h00-14h00,Miércoles,Laborable,Entrada
+0197,2026-06-24,Paradero FIEC,14h00-16h30,Miércoles,Laborable,Entrada
+0198,2026-06-23,Estación de buses,11h00-14h00,Martes,Laborable,Entrada
+0199,2026-06-22,Paradero FCSH (Salida),08h00-11h00,Lunes,Laborable,Salida
+0200,2026-06-19,Paradero FCV,14h00-16h30,Viernes,Laborable,Entrada
+0201,2026-06-04,Paradero FCV,08h00-11h00,Jueves,Laborable,Entrada
+0202,2026-07-07,Estación de buses (Salida),11h00-14h00,Martes,Laborable,Salida
+0203,2026-06-22,Estación de buses (Salida),08h00-11h00,Lunes,Laborable,Salida
+0204,2026-06-04,Paradero Garita (Entrada),08h00-11h00,Jueves,Laborable,Entrada
+0205,2026-06-17,Paradero Biblioteca (Salida),08h00-11h00,Miércoles,Laborable,Salida
+0206,2026-06-02,Paradero Garita (Entrada),08h00-11h00,Martes,Laborable,Entrada
+0207,2026-07-07,Paradero Fadcom,14h00-16h30,Martes,Laborable,Entrada
+0208,2026-06-10,Paradero FCV/Piscina,11h00-14h00,Miércoles,Laborable,Salida
+0209,2026-06-25,Paradero FCSH (Salida),14h00-16h30,Jueves,Laborable,Salida
+0210,2026-06-01,Paradero FCSH (Salida),08h00-11h00,Lunes,Laborable,Salida
+0211,2026-06-11,Paradero Gimnasio Bienestar,11h00-14h00,Jueves,Laborable,Salida
+0212,2026-06-04,Estación de buses,08h00-11h00,Jueves,Laborable,Entrada
+0213,2026-06-05,Paradero FCSH (Entrada),11h00-14h00,Viernes,Laborable,Entrada
+0214,2026-06-03,Paradero Gimnasio Bienestar,08h00-11h00,Miércoles,Laborable,Salida
+0215,2026-06-25,Paradero Biblioteca (Entrada),08h00-11h00,Jueves,Laborable,Entrada
+0216,2026-06-02,Paradero Biblioteca (Salida),08h00-11h00,Martes,Laborable,Salida
+0217,2026-06-24,Paradero FCV,08h00-11h00,Miércoles,Laborable,Entrada
+0218,2026-06-17,Paradero FCV,14h00-16h30,Miércoles,Laborable,Entrada
+0219,2026-06-15,Paradero Biblioteca (Salida),11h00-14h00,Lunes,Laborable,Salida
+0220,2026-06-15,Paradero Biblioteca (Entrada),11h00-14h00,Lunes,Laborable,Entrada
+0221,2026-06-23,Paradero FCV,14h00-16h30,Martes,Laborable,Entrada
+0222,2026-06-22,Paradero FCV,11h00-14h00,Lunes,Laborable,Entrada
+0223,2026-06-19,Estación de buses,14h00-16h30,Viernes,Laborable,Entrada
+0224,2026-07-10,Paradero FCSH (Entrada),08h00-11h00,Viernes,Laborable,Entrada
+0225,2026-06-05,Paradero Fadcom,11h00-14h00,Viernes,Laborable,Entrada
+0226,2026-06-24,Paradero FCV,11h00-14h00,Miércoles,Laborable,Entrada
+0227,2026-06-25,Paradero FCSH (Entrada),08h00-11h00,Jueves,Laborable,Entrada
+0228,2026-06-12,Estación de buses (Salida),11h00-14h00,Viernes,Laborable,Salida
+0229,2026-06-25,Paradero Fadcom,08h00-11h00,Jueves,Laborable,Entrada
+0230,2026-07-06,Paradero FCSH (Entrada),08h00-11h00,Lunes,Laborable,Entrada
+0231,2026-06-12,Paradero Gimnasio Bienestar,08h00-11h00,Viernes,Laborable,Salida
+0232,2026-06-03,Paradero Garita (Entrada),08h00-11h00,Miércoles,Laborable,Entrada
+0233,2026-06-01,Paradero FIEC,11h00-14h00,Lunes,Laborable,Entrada
+0234,2026-06-22,Paradero FCV,08h00-11h00,Lunes,Laborable,Entrada
+0235,2026-06-02,Paradero Garita (Entrada),14h00-16h30,Martes,Laborable,Entrada
+0236,2026-06-15,Paradero Garita (Salida),11h00-14h00,Lunes,Laborable,Salida
+0237,2026-06-05,Estación de buses (Salida),11h00-14h00,Viernes,Laborable,Salida
+0238,2026-07-06,Paradero Biblioteca (Entrada),11h00-14h00,Lunes,Laborable,Entrada
+0239,2026-06-09,Paradero FCV,08h00-11h00,Martes,Laborable,Entrada
+0240,2026-06-11,Paradero FCV/Piscina,11h00-14h00,Jueves,Laborable,Salida
+0241,2026-06-22,Paradero Biblioteca (Entrada),14h00-16h30,Lunes,Laborable,Entrada
+0242,2026-06-05,Estación de buses (Salida),08h00-11h00,Viernes,Laborable,Salida
+0243,2026-07-10,Paradero FIEC,14h00-16h30,Viernes,Laborable,Entrada
+0244,2026-06-04,Paradero Garita (Entrada),14h00-16h30,Jueves,Laborable,Entrada
+0245,2026-06-23,Paradero FCSH (Entrada),08h00-11h00,Martes,Laborable,Entrada
+0246,2026-06-16,Paradero Biblioteca (Salida),14h00-16h30,Martes,Laborable,Salida
+0247,2026-06-25,Paradero Gimnasio Bienestar,14h00-16h30,Jueves,Laborable,Salida
+0248,2026-06-03,Paradero FCV,14h00-16h30,Miércoles,Laborable,Entrada
+0249,2026-06-19,Estación de buses (Salida),08h00-11h00,Viernes,Laborable,Salida
+0250,2026-06-15,Paradero FCV,14h00-16h30,Lunes,Laborable,Entrada
+0251,2026-06-23,Paradero Biblioteca (Entrada),14h00-16h30,Martes,Laborable,Entrada
+0252,2026-06-02,Paradero FCV,11h00-14h00,Martes,Laborable,Entrada
+0253,2026-06-08,Paradero FCSH (Salida),11h00-14h00,Lunes,Laborable,Salida
+0254,2026-06-12,Paradero FCV,14h00-16h30,Viernes,Laborable,Entrada
+0255,2026-06-22,Paradero Biblioteca (Entrada),08h00-11h00,Lunes,Laborable,Entrada
+0256,2026-06-15,Paradero Garita (Salida),14h00-16h30,Lunes,Laborable,Salida
+0257,2026-06-16,Estación de buses (Salida),14h00-16h30,Martes,Laborable,Salida
+0258,2026-06-09,Paradero Biblioteca (Salida),11h00-14h00,Martes,Laborable,Salida
+0259,2026-07-06,Paradero FCV,14h00-16h30,Lunes,Laborable,Entrada
+0260,2026-06-24,Paradero Fadcom,11h00-14h00,Miércoles,Laborable,Entrada
+0261,2026-07-07,Paradero Garita (Entrada),14h00-16h30,Martes,Laborable,Entrada
+0262,2026-07-09,Paradero Biblioteca (Entrada),11h00-14h00,Jueves,Laborable,Entrada
+0263,2026-07-09,Paradero FCV/Piscina,11h00-14h00,Jueves,Laborable,Salida
+0264,2026-06-04,Paradero Biblioteca (Entrada),08h00-11h00,Jueves,Laborable,Entrada
+0265,2026-06-11,Paradero Biblioteca (Salida),14h00-16h30,Jueves,Laborable,Salida
+0266,2026-06-25,Paradero FCSH (Salida),11h00-14h00,Jueves,Laborable,Salida
+0267,2026-06-12,Paradero Fadcom,11h00-14h00,Viernes,Laborable,Entrada
+0268,2026-06-23,Paradero Gimnasio Bienestar,11h00-14h00,Martes,Laborable,Salida
+0269,2026-06-02,Paradero FCV,14h00-16h30,Martes,Laborable,Entrada
+0270,2026-06-05,Paradero Garita (Salida),11h00-14h00,Viernes,Laborable,Salida
+0271,2026-07-10,Paradero Gimnasio Bienestar,14h00-16h30,Viernes,Laborable,Salida
+0272,2026-06-05,Paradero Fadcom,08h00-11h00,Viernes,Laborable,Entrada
+0273,2026-06-19,Paradero Gimnasio Bienestar,11h00-14h00,Viernes,Laborable,Salida
+0274,2026-06-11,Paradero Garita (Salida),14h00-16h30,Jueves,Laborable,Salida
+0275,2026-06-09,Paradero Garita (Entrada),11h00-14h00,Martes,Laborable,Entrada
+0276,2026-06-10,Paradero Fadcom,14h00-16h30,Miércoles,Laborable,Entrada
+0277,2026-06-09,Paradero Biblioteca (Salida),14h00-16h30,Martes,Laborable,Salida
+0278,2026-06-10,Paradero FIEC,14h00-16h30,Miércoles,Laborable,Entrada
+0279,2026-06-01,Paradero FCSH (Entrada),14h00-16h30,Lunes,Laborable,Entrada
