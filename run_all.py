@@ -48,7 +48,7 @@ def main():
     with_cols = [c for c in cols if c in summ.columns]
     print(summ[with_cols].to_string(index=False))
     print("=" * 64)
-    print("Resultados escritos en outputs/. Ver docs/metodologia.md.")
+    print("Resultados escritos en outputs/.")
 
 
 if __name__ == "__main__":
