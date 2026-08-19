@@ -11,6 +11,7 @@ import pandas as pd
 from . import missingness as mo
 from .config import load_config, output_path
 from .data_loading import load_all
+from .demand_analysis import analyze_demand, plot_heatmap
 from .experiment import run_experiment
 from .grid_integration import integrate
 from .imputation import evaluate_masking, select_best_strategy
@@ -78,6 +79,25 @@ def stage_integrate(cfg: dict, data: dict) -> dict:
     return integrated
 
 
+def stage_demand_analysis(cfg: dict, integrated: dict) -> dict:
+    """Caracteriza la variación de la demanda por franja horaria y día de la semana (RQ3)."""
+
+    res = analyze_demand(integrated["observed"])
+
+    _save_csv(res["por_franja"], cfg, "06_demanda_por_franja.csv")
+    _save_csv(res["por_dia"], cfg, "06_demanda_por_dia.csv")
+    _save_csv(res["heatmap"].reset_index(), cfg, "06_demanda_heatmap_franja_dia.csv")
+    _save_csv(res["no_satisfecha_por_franja"], cfg, "06_no_satisfecha_por_franja.csv")
+    _save_csv(res["no_satisfecha_por_dia"], cfg, "06_no_satisfecha_por_dia.csv")
+
+    with open(output_path(cfg, "06_no_satisfecha_resumen.json"), "w", encoding="utf-8") as fh:
+        json.dump(res["resumen"], fh, ensure_ascii=False, indent=2)
+
+    plot_heatmap(res["heatmap"], output_path(cfg, "fig_demanda_franja_dia.pdf"))
+
+    return res
+
+
 def stage_missingness(cfg: dict, integrated: dict) -> dict:
     """Analiza el mecanismo de datos faltantes y genera los reportes correspondientes."""
     
@@ -129,15 +149,17 @@ def run_pipeline(config_path: str | None = None) -> dict:
     data = load_all(cfg)
     resumen = stage_characterize(cfg, data)
     integrated = stage_integrate(cfg, data)
+    demand = stage_demand_analysis(cfg, integrated)
     missing = stage_missingness(cfg, integrated)
     best = stage_masking(cfg, integrated)
     experiment = stage_experiment(cfg, integrated, best)
 
     return {
-        "cfg": cfg, 
-        "resumen": resumen, 
+        "cfg": cfg,
+        "resumen": resumen,
         "cobertura": integrated["_cobertura"],
-        "missingness": missing, 
-        "imputador": best, 
+        "demand": demand,
+        "missingness": missing,
+        "imputador": best,
         "experiment": experiment
     }
